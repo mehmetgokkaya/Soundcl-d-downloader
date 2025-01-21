@@ -4,7 +4,7 @@ error_reporting(0);
 ini_set('display_errors', 0);
 ?>
 <?php
-$clientId = file_get_contents('/www/wwwroot/dinle.mehmetgokkaya.com/client_id.txt');
+$clientId = file_get_contents('/client_id.txt');
 if (isset($_POST['search'])) {
     $search = urlencode($_POST['search']);
     $clientcode = $clientId;
