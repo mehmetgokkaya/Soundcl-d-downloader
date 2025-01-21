@@ -153,7 +153,7 @@ repeatallButton.addEventListener('click', () => {
 
 </script>
 <?php
-$clientId = file_get_contents('/www/wwwroot/dinle.mehmetgokkaya.com/client_id.txt');
+$clientId = file_get_contents('/client_id.txt');
 ?>
 
 <script>
