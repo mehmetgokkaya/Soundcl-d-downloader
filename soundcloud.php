@@ -1,5 +1,5 @@
 <?php
-$client_id = file_get_contents('/www/wwwroot/dinle.mehmetgokkaya.com/client_id.txt');
+$client_id = file_get_contents('/client_id.txt');
 $api_url = "https://api-v2.soundcloud.com/mixed-selections";
 $limit = 10;
 $offset = 0;
